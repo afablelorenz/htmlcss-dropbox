@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(27, 247, 2);
+}
+
+header  li{
+    list-style-type: none;
+}
+
+header section.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav1{
+    display: flex;
+}
+
+header .nav1 ul{
+    display: flex;
+
+}
+
+header .nav2 ul{
+    display: flex;
+    flex-direction: row;
+}
