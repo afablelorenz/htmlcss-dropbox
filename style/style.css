@@ -4,30 +4,95 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.smallContainer{
+
+}
+
+.bigContainer{
+    max-width: 800px;
+}
+
 header{
-    width: 100%;
-    background-color: rgb(27, 247, 2);
+    padding: 1.5rem 1rem;
+    background-color: white;
 }
 
-header  li{
-    list-style-type: none;
+ul{
+    list-style: none;
 }
 
-header section.navbar{
+header nav{
     display: flex;
     justify-content: space-between;
 }
 
-header .nav1{
+header nav ul{
     display: flex;
 }
 
-header .nav1 ul{
-    display: flex;
-
+header nav ul > li{
+    margin-right: 1rem;
 }
 
-header .nav2 ul{
+section.jumbo{
+    background-color: #b4d0e7;
+    height: 50vh;
+    padding-top: 2.5rem;
+    padding-bottom:1rem;
+}
+
+section.jumbo div.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+section.jumbo
+
+section.jumbo img{
+    height: 15rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+
+thead,tfoot {
+    background-color: white;
+}
+
+th,td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+tfoot th {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.businessTable{
     display: flex;
     flex-direction: row;
 }
