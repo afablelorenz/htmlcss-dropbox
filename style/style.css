@@ -9,11 +9,13 @@ body{
 }
 
 .smallContainer{
-
+    max-width: 1025px;
+    margin: 0 auto;
 }
 
 .bigContainer{
-    max-width: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header{
@@ -64,6 +66,7 @@ table {
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
+    margin: 1rem;
 }
 
 
@@ -92,7 +95,80 @@ tfoot td {
     font-weight: bold;
 }
 
+#mensile, #annuale{
+    padding: 1rem;
+}
+
+label{
+    padding-right: 2rem;
+}
+
 .businessTable{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.flexBusinessTable{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.businessTableInput h1{
+    padding: 1rem 0;
+    margin-left: 0.5rem;
+}
+
+.businessTableInput input{
+    padding: 1rem 2rem 0 1rm;
+    margin-left: 1.1rem;
+}
+
+section.partner{
+    padding-top: 2.5rem;
+    padding-bottom:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.partner img{
+    height: 23rem;
+    padding: 1rem;
+}
+
+section.partner div{
+    padding: 1rem;
+} 
+
+section.partner h3{
+    padding: 1rem 0 1rem 0;
+}
+
+section.partner p{
+    padding-bottom: 1rem;
+}
+
+section.partner button{
+    padding: 0.5rem 1rem;
+}
+
+section.operazioni h3{
+    padding: 3rem 0 2rem 1rem;
+}
+
+div.flexOperazioni{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.flexOperazioni img{
+    height: 15rem;
+}
+
+div.flexOperazioni h4,p{
+    padding: 1rem;
+    margin: 0 1rem;
 }
