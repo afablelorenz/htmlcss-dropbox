@@ -201,3 +201,19 @@ section.provaGrat div{
     align-items: center;
     justify-content: space-between;
 }
+
+section.domande{
+    padding: 1rem 1rem 7rem 1rem;
+}
+
+section.domande h1{
+    padding: 5rem 0 3rem 0;
+}
+
+
+section.domande div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0 2rem 0;
+}
