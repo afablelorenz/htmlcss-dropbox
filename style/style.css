@@ -9,12 +9,12 @@ body{
 }
 
 .smallContainer{
-    max-width: 1025px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .bigContainer{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -131,7 +131,7 @@ section.partner{
     padding-bottom:1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 section.partner img{
@@ -144,7 +144,7 @@ section.partner div{
 } 
 
 section.partner h3{
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0;
 }
 
 section.partner p{
@@ -168,7 +168,36 @@ div.flexOperazioni img{
     height: 15rem;
 }
 
-div.flexOperazioni h4,p{
+div.operazioni h4{
     padding: 1rem;
     margin: 0 1rem;
+}
+
+div.operazioni p{
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+section.dropBusiness{
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+section.dropBusiness h1{
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+section.provaGrat{
+    background-color: #b4d0e7;
+    height: 20vh;
+}
+
+section.provaGrat div{
+    padding: 1rem;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
