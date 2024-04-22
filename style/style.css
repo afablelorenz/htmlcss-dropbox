@@ -162,6 +162,7 @@ section.operazioni h3{
 div.flexOperazioni{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 div.flexOperazioni img{
@@ -216,4 +217,38 @@ section.domande div{
     flex-direction: row;
     justify-content: space-between;
     padding: 2rem 0 2rem 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+footer .footerList{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+footer h4{
+    padding-top: 2rem;
+}
+
+footer ul > li{
+    padding-top: 1rem;
+}
+
+footer hr{
+    width: 10%;
+}
+
+footer .italiano{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: gray;
+}
+
+footer .italiano hr{
+    margin-bottom: 1rem;
 }
